@@ -3,7 +3,7 @@ class coordinates :
         self.cor_x=cor_x
         self.cor_y=cor_y
 class Solution:
-    def SpiralMatrix(self,mat):
+    def spiralOrder(self, mat):
         row= len(mat)
         col=len(mat[0])
         row_top=0
